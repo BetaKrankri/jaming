@@ -42,7 +42,7 @@ const Spotify = {
         });
     },
     savePlaylist(name, tracksUris) {
-        console.log(tracksUris);
+        //console.log(tracksUris);
         if (!name || !tracksUris.length) { return };
         const accessToke = this.getAccesToken();
         const authHeader = { Authorization: `Bearer ${accessToke}` };
@@ -59,7 +59,7 @@ const Spotify = {
             }).then(response => response.json()
             ).then(jsonResponse => {
                 const playlistId = jsonResponse.id;
-                console.log(jsonResponse)
+                //console.log(jsonResponse)
                 return fetch(`https://api.spotify.com/v1/users/${userId}/playlists/${playlistId}/tracks`, {
                     headers: authHeader,
                     method: 'POST',
