@@ -1,5 +1,5 @@
 const clientId = '4f691e3787b74fdbbcf6c2292946e688';
-const redirectURI = 'http://jelly-jamm.surge.sh/';
+const redirectURI = 'https://dynamic-cheesecake-dd375c.netlify.app/';
 let accessToken;
 
 const Spotify = {
