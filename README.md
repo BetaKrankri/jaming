@@ -1,6 +1,8 @@
 # [Jamming](https://dynamic-cheesecake-dd375c.netlify.app) with Quike _App_
 
-## This is my first app with React Class Components.
+This app works with Spotify API.
+Log In you Spotify account to use this app. 
+
 This app let you search for tracks in Spotify's tracks DB.
 You can add tracks to a playlist, name it and save it into your Spotify account (need to logIn).
 
